@@ -23,5 +23,6 @@ checkWeatherBtn.addEventListener("click", function () {
             let iconUrl='https://openweathermap.org/img/wn/'+iconCode+'@2x.png';
             weatherIcon.setAttribute('src',iconUrl);
         })
+        .catch(err=>alert("Wrong city Name"))
        
 })
